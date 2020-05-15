@@ -49,7 +49,7 @@ public class EmpWageComputation10 {
 	
 	private int computeEmpWage(CompanyEmpWage companyEmpWage) {
 		int empHrs=0, totalEmpHrs=0, totalWorkingDays=0;
-		 Random rand = new Random();
+		Random rand = new Random();
 		while(totalEmpHrs <= companyEmpWage.maxHoursPerMonth && totalWorkingDays < companyEmpWage.numOfWorkingDays)
 		{
 			int empCheck=rand.nextInt(3);
